@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{31cec652-8e84-41a8-9c1b-27882b41278c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{3f10464a-5acb-46ab-874a-a0034107e44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{8d431a95-1445-4569-91b5-922e1471df66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base_socket.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_socket.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="base_socket_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseThread.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="event_pump.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventsQueue.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base_socket.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_socket.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="base_socket_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseThread.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="event_pump.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
