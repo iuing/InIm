@@ -51,6 +51,51 @@
     <ClInclude Include="IEventsQueue.h">
       <Filter>core</Filter>
     </ClInclude>
+    <ClInclude Include="netio_queue.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="netio_queue_operator.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="netio_event.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="netio_queue_operator_select.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_listener.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="INet_TcpServer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="IMsg_Handle.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_server_manager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_queue.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_socket_session.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XListPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_socket_connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="base_socket.cpp">
@@ -73,6 +118,42 @@
     </ClCompile>
     <ClCompile Include="event_pump.cpp">
       <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="netio_queue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="netio_event.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="netio_queue_operator_select.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_listener.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server_manager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_queue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_socket_session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XListPtr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_socket_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_frame.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

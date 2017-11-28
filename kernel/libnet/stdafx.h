@@ -16,7 +16,7 @@
 #include <windows.h>
 #include<WinSock2.h>
 #include <WS2tcpip.h>
-
+#include <timeapi.h>
 #pragma comment(lib,"ws2_32.lib")
 
 //导出标识
@@ -49,4 +49,6 @@
 #include <map>
 #include <list>
 
+#include "Lock.h"
 typedef int int32_t;
+typedef unsigned int uint32_t;
